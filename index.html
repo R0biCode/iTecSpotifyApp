@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Bio Page</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <br></br>
+                    </div>
+                </div>
+                <!-- Middle Card -->
+                <div id="card-1" class="card">
+                    <div class="container"> 
+                        <div id="header" class="row">
+                          <div id class="col-sm-5">
+                            <img src="photo.png" class="img-fluid" width="30" height="30">
+                          </div>
+                          <div class="col-sm-6">
+                            <h1>Testing</h1>
+                          </div>
+                          <div class="col-sm">
+                            One of three columns
+                          </div>
+                        </div>
+                      </div>
+                      <div id="more" class="col-12 col-lg-6">
+                        <h2>Favorite Music Artists</h2>
+                        <ul id="ul-1">
+                            <li>Radiohead</li>
+                            <li>Kero Kero Bonito</li>
+                            <li>Gorillaz</li>
+                            <li>Car Seat Headrest</li>
+                            <li>MF Doom</li>
+                        </ul id="ul-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="bootstrap.bundle.min.js"></script>
+    </div>
+    <style>
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.767);
+          color: white;
+          text-align: center;
+          backdrop-filter: blur(5px);
+        }
+        #cover-image{
+            position: relative;
+            right: 330px;
+        }
+        #imgBar{
+            object-fit: scale-down;
+        }
+        
+        </style>
+        
+        <div class="footer">
+          <p></p>
+          <div class="container">
+            <div class="row">
+                <!-- First block nesting the image -->
+                <div class="col-md-2">
+                    <img id="cover-image" src="InRainbows.png" class="img fluid" width="80" height="80">
+                </div>
+                <!-- Second block Nesting other 2 blocks (divs) -->
+                <div id="columnFooter" class="col-md-6">
+                    <div id="icon-set-footer" class="col-sm">
+                        <div class="col-sm">
+                            <img src="ShuffleApp.png" class="img fluid" width="25" height="25">
+                            <img src="Retro.png" class="img fluid" width="25" height="25">
+                        </div>
+                        </div>
+                        <div class="col-sm">
+                            <img id="imgBar" src="spotifyBar.png" class="img fluid">
+                        </div>
+                        <div class="col-sm">
+                            
+                        </div>
+                        <div class="col-sm">
+                            
+                        </div>
+                        <div class="col-sm">
+                            
+                        </div>
+                    </div>
+                    <div id="columnFooter" class="col-sm">
+                        <p>test</p>
+
+                    </div>
+
+                </div>
+                <!-- Third block nesting other 4 images -->
+                <div class="col-md-3">
+                </div>
+            </div>
+          </div>
+          <p></p>
+          
+        </div>
+</body>
+</html>
